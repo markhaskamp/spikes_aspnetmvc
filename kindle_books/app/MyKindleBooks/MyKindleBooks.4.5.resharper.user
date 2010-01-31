@@ -1,0 +1,100 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/f:BookRepository.cs" caret="533" fromTop="14" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Content/f:foo.css" caret="44" fromTop="5" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Views/d:Book/f:Index.aspx" caret="511" fromTop="15" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Views/d:Shared/f:Site.Master" caret="501" fromTop="10" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Content/f:Site.css" caret="445" fromTop="13" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/d:Controllers/f:BookController.cs" caret="528" fromTop="24" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/f:Books.cs" caret="0" fromTop="0" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/f:Book_ViewModel.cs" caret="174" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/d:Controllers/f:BookController.cs" caret="0" fromTop="0" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/d:Controllers/f:BookController.cs" caret="89" fromTop="4" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/d:Controllers/f:BookController.cs" caret="530" fromTop="19" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/d:Controllers/f:BookController.cs" caret="301" fromTop="12" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Views/d:Book/f:Index.aspx" caret="43" fromTop="1" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Views/d:Book/f:Index.aspx" caret="764" fromTop="10" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/f:Book_ViewModel.cs" caret="174" fromTop="9" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/d:Controllers/f:BookController.cs" caret="503" fromTop="20" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/f:BookRepository.cs" caret="1399" fromTop="18" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Views/d:Book/f:Index.aspx" caret="482" fromTop="15" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Content/f:Site.css" caret="465" fromTop="13" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Views/d:Shared/f:Site.Master" caret="447" fromTop="7" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Content/f:foo.css" caret="133" fromTop="10" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Content/f:foo.css" caret="65" fromTop="3" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Content/f:foo.css" caret="44" fromTop="5" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/f:BookRepository.cs" caret="543" fromTop="16" />
+      <File id="3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981/d:Models/f:BookRepository.cs" caret="50" fromTop="2" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="1" />
+      <Item value="prop" priority="3" />
+      <Item value="DateTime" priority="6" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="Books" priority="12" />
+      <Item value="public" priority="1" />
+      <Item value="BookRepository" priority="1" />
+      <Item value="books" priority="1" />
+      <Item value="new" priority="14" />
+      <Item value="List" priority="1" />
+      <Item value="static" priority="0" />
+      <Item value="IList" priority="3" />
+      <Item value="foo" priority="6" />
+      <Item value="Author" priority="5" />
+      <Item value="OrderDate" priority="4" />
+      <Item value="Title" priority="5" />
+      <Item value="return" priority="0" />
+      <Item value="List&lt;Books&gt;" priority="1" />
+      <Item value="Book_ViewModel" priority="1" />
+      <Item value="vm" priority="5" />
+      <Item value="for" priority="1" />
+      <Item value="int" priority="1" />
+      <Item value="ViewData" priority="1" />
+      <Item value="View" priority="0" />
+      <Item value="i" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="Model" priority="0" />
+      <Item value="book" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add" priority="5" />
+      <Item value="First" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyKindleBooks.Models.Book_ViewModel">
+      <Item value="AllBooks" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MyKindleBooks.Models.BookRepository">
+      <Item value="SampleData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewDataDictionary">
+      <Item value="Model" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyKindleBooks.Models.Books">
+      <Item value="Title" priority="0" />
+      <Item value="Author" priority="0" />
+      <Item value="OrderDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortDateString" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

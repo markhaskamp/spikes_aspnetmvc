@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI.MobileControls;
 
 namespace MyKindleBooks.Models
 {
@@ -16,7 +12,7 @@ namespace MyKindleBooks.Models
             foo.Add(new Books() {
                                     Author = "Laszlo Mero, Gosi-Greguss",
                                     OrderDate = new DateTime(2010, 1, 31),
-                                    Title = "Moral Calculations: Game Theory, Logi, and Human Frailty"
+                                    Title = "Moral Calculations: Game Theory, Logic, and Human Frailty"
                                 });
             foo.Add(new Books() {
                                     Author = "Chad Orzel",
@@ -31,7 +27,7 @@ namespace MyKindleBooks.Models
             foo.Add(new Books() {
                                     Author = "Brian Cox",
                                     OrderDate = new DateTime(2009, 10, 28),
-                                    Title = "Why Does E=m2?"
+                                    Title = "Why Does E=mc2?"
                                 });
             foo.Add(new Books() {
                                     Author = "Jon Loeliger",

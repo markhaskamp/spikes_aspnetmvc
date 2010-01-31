@@ -1,0 +1,15 @@
+﻿
+.bookListing 
+{
+    color: #000099;
+}
+
+.bookTitle
+{
+    font-weight: bold;
+}
+
+.bookAuthor 
+{
+    font-style: italic;
+}
