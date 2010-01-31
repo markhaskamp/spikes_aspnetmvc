@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyKindleBooks", "MyKindleBooks.csproj", "{3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyKindleBooks.Tests", "..\MyKindleBooks.Tests\MyKindleBooks.Tests.csproj", "{FA13D27D-345B-420A-A2C5-B134C478B25F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3693ACD1-6F3A-4BE0-8891-FD6FBB3A9981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA13D27D-345B-420A-A2C5-B134C478B25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA13D27D-345B-420A-A2C5-B134C478B25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA13D27D-345B-420A-A2C5-B134C478B25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA13D27D-345B-420A-A2C5-B134C478B25F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
