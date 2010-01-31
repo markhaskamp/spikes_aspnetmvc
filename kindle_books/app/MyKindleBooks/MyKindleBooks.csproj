@@ -55,6 +55,8 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\BookRepository.cs" />
+    <Compile Include="Models\Books.cs" />
     <Compile Include="Models\Controllers\AccountController.cs" />
     <Compile Include="Models\Controllers\HomeController.cs" />
     <Compile Include="Default.aspx.cs">
