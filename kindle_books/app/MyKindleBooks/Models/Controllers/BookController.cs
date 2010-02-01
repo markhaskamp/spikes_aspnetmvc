@@ -22,16 +22,23 @@ namespace MyKindleBooks.Models.Controllers
 
         [AcceptVerbs("Post")]
         public ActionResult Index(string authorName) {
-            vm.authorLabel = authorName;
-            vm.showAuthorLabel = true;
             var allBooks = BookRepository.SampleData();
 
-            var result = from b in allBooks
-                          where b.Author == authorName
-                          select b;
+            if (authorName.Trim().Length == 0)
+            {
+                vm.showAuthorLabel = false;
+                vm.AllBooks = allBooks;
+            }
+            else {
+                vm.authorLabel = authorName;
+                vm.showAuthorLabel = true;
+                var result = from b in allBooks
+                             where b.Author == authorName
+                             select b;
 
-            foreach (var book in result) {
-                vm.AllBooks.Add(book);
+                foreach (var book in result) {
+                    vm.AllBooks.Add(book);
+                }
             }
 
             ViewData.Model = vm;
