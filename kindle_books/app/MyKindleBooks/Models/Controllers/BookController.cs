@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.Mvc.Ajax;
 
 namespace MyKindleBooks.Models.Controllers
 {
@@ -24,26 +20,23 @@ namespace MyKindleBooks.Models.Controllers
         public ActionResult Index(string authorName) {
             var allBooks = BookRepository.SampleData();
 
-            if (authorName.Trim().Length == 0)
-            {
+            if (authorName.Trim().Length == 0) {
                 vm.showAuthorLabel = false;
                 vm.AllBooks = allBooks;
             }
             else {
                 vm.authorLabel = authorName;
                 vm.showAuthorLabel = true;
-                var result = from b in allBooks
-                             where b.Author == authorName
-                             select b;
 
-                foreach (var book in result) {
-                    vm.AllBooks.Add(book);
-                }
+//                var result = from b in allBooks
+//                             where b.Author == authorName
+//                             select b;
+//                var result = allBooks.Where(b => b.Author == authorName);
+                vm.AllBooks  = allBooks.Where(b => b.Author == authorName).ToList();
             }
 
             ViewData.Model = vm;
             return View();
         }
-
     }
 }
