@@ -10,6 +10,15 @@
 
     <h2>Index</h2>
     
+    <form method="post">
+        Author: <input type="text" name="authorName" />
+                <input type="submit" value="Search By Auhor" />
+    </form>
+    
+    <% if (Model.showAuthorLabel) { %>
+        <div id="authorLabel"><%= Model.authorLabel %></div>
+    <% } %>
+    
     <% foreach (var book in Model.AllBooks)
        { %>
         <div class="bookListing">
