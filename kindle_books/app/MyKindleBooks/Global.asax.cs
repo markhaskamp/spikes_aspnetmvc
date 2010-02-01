@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
+using MyKindleBooks.Utils;
 
 namespace MyKindleBooks
 {
@@ -27,6 +24,8 @@ namespace MyKindleBooks
         protected void Application_Start()
         {
             RegisterRoutes(RouteTable.Routes);
+
+            ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory());
         }
     }
 }
