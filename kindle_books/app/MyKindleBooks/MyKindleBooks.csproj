@@ -114,6 +114,7 @@
     <Content Include="Content\foo.css" />
     <Content Include="Default.aspx" />
     <EmbeddedResource Include="Domain\Category.hbm.xml" />
+    <EmbeddedResource Include="Domain\Subcategory.hbm.xml" />
     <Content Include="Global.asax" />
     <Content Include="Views\Book\Index.aspx" />
     <Content Include="Views\Category\Index.aspx" />

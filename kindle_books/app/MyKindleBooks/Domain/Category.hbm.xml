@@ -6,5 +6,10 @@
     </id>
     <property name="Name" />
     <property name="ProductCategoryID" />
+
+    <set name="subcategories" table="Production.ProductSubcategory" inverse="true" cascade="all">
+      <key column="ProductCategoryID" />
+      <one-to-many class="MyKindleBooks.Domain.Subcategory" />
+    </set>
   </class>
 </hibernate-mapping>

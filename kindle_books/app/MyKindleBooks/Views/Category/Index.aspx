@@ -1,4 +1,5 @@
 <%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<MyKindleBooks.Models.Category_ViewModel>" %>
+<%@ Import Namespace="MyKindleBooks.Domain"%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
 	Category
@@ -9,7 +10,7 @@
     <h2>Category</h2>
     
     <% foreach (var category in Model.AllCategories) { %>
-        <div><%= category.Name %></div>
+        <div class="category"><%= category.Name %></div>
     <% } %>
 
 </asp:Content>
