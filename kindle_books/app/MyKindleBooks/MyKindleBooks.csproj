@@ -59,6 +59,8 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Category_ViewModel.cs" />
+    <Compile Include="Models\Controllers\CategoryController.cs" />
     <Compile Include="Models\SampleBookRepository.cs" />
     <Compile Include="Models\Books.cs" />
     <Compile Include="Models\Book_ViewModel.cs" />
@@ -81,6 +83,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Views\Book\Index.aspx" />
+    <Content Include="Views\Category\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\jquery-1.3.2.js" />
