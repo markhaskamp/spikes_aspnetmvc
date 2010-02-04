@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web.Mvc;
-using MyKindleBooks.Models;
+using MyKindleBooks.DataAccess;
 using Ninject.Core;
 
 namespace MyKindleBooks.Utils
@@ -18,7 +18,7 @@ namespace MyKindleBooks.Utils
         {
             public override void Load()
             {
-                Bind<IBookRepository>().To<SampleBookRepository>();
+                Bind<IBookRepository>().To<BookRepository_Sample>();
             }
         }
     }

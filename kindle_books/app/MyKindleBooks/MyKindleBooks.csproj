@@ -61,8 +61,8 @@
   <ItemGroup>
     <Compile Include="Models\Category_ViewModel.cs" />
     <Compile Include="Models\Controllers\CategoryController.cs" />
-    <Compile Include="Models\SampleBookRepository.cs" />
-    <Compile Include="Models\Books.cs" />
+    <Compile Include="DataAccess\BookRepository_Sample.cs" />
+    <Compile Include="Domain\Books.cs" />
     <Compile Include="Models\Book_ViewModel.cs" />
     <Compile Include="Models\Controllers\AccountController.cs" />
     <Compile Include="Models\Controllers\BookController.cs" />
@@ -74,7 +74,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\IBookRepository.cs" />
+    <Compile Include="DataAccess\IBookRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\NinjectControllerFactory.cs" />
   </ItemGroup>
