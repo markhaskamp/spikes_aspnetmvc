@@ -87,8 +87,8 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAccess\CatalogRepository_DB.cs" />
-    <Compile Include="DataAccess\ICatalogRepository.cs" />
+    <Compile Include="DataAccess\CategoryRepository_DB.cs" />
+    <Compile Include="DataAccess\ICategoryRepository.cs" />
     <Compile Include="Domain\Category.cs" />
     <Compile Include="Domain\Subcategory.cs" />
     <Compile Include="Models\Category_ViewModel.cs" />
@@ -113,6 +113,7 @@
   <ItemGroup>
     <Content Include="Content\foo.css" />
     <Content Include="Default.aspx" />
+    <EmbeddedResource Include="Domain\Category.hbm.xml" />
     <Content Include="Global.asax" />
     <Content Include="Views\Book\Index.aspx" />
     <Content Include="Views\Category\Index.aspx" />

@@ -1,19 +1,21 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.Mvc.Ajax;
+using MyKindleBooks.DataAccess;
 
 namespace MyKindleBooks.Models.Controllers
 {
     public class CategoryController : Controller
     {
-        //
-        // GET: /Category/
+        private ICategoryRepository categoryRepository;
+
+        public CategoryController(ICategoryRepository categoryRepository) {
+            this.categoryRepository = categoryRepository;
+        }
 
         public ActionResult Index()
         {
+            Category_ViewModel vm = new Category_ViewModel();
+            vm.AllCategories = categoryRepository.GetAllCategoriesWithSubcategories();
+            ViewData.Model = vm;
             return View();
         }
 

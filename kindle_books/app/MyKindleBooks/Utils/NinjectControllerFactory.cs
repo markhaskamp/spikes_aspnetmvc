@@ -19,6 +19,7 @@ namespace MyKindleBooks.Utils
             public override void Load()
             {
                 Bind<IBookRepository>().To<BookRepository_Sample>();
+                Bind<ICategoryRepository>().To<CategoryRepository_DB>();
             }
         }
     }
