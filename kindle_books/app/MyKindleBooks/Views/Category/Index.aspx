@@ -7,5 +7,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
     <h2>Category</h2>
+    
+    <% foreach (var category in Model.AllCategories) { %>
+        <div><%= category.Name %></div>
+    <% } %>
 
 </asp:Content>
