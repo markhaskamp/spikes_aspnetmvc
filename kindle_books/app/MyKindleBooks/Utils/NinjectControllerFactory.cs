@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 using MyKindleBooks.DataAccess;
+using NHibernate;
 using Ninject.Core;
 
 namespace MyKindleBooks.Utils

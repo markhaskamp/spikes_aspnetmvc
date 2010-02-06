@@ -140,6 +140,11 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="nhibernate-configuration.xsd" />
+    <None Include="nhibernate-mapping.xsd" />
+    <Content Include="nhibernate.config" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
