@@ -21,3 +21,9 @@
     margin-bottom: .5em;
     font-weight: bold;
 }
+
+.subcategory 
+{
+    margin-left: 2.0em;
+    font-style: italic;
+}
