@@ -2,6 +2,7 @@
 using System.IO;
 using System.Web.Mvc;
 using System.Web.Routing;
+using HibernatingRhinos.Profiler.Appender.NHibernate;
 using MyKindleBooks.Utils;
 using NHibernate;
 using NHibernate.Cfg;
@@ -44,6 +45,7 @@ namespace MyKindleBooks
             var cfg =
                 new Configuration().Configure(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "nhibernate.config"));
             cfg.SetProperty(NHibernate.Cfg.Environment.ConnectionStringName, System.Environment.MachineName);
+            NHibernateProfiler.Initialize();
             return cfg.BuildSessionFactory();
         }
 
