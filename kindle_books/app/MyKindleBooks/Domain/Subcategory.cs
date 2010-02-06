@@ -8,7 +8,5 @@ namespace MyKindleBooks.Domain
         virtual public string Name { get; set; }
         virtual public Guid rowguid { get; set; }
         virtual public Category category { get; set; }
-
-        public Subcategory() {}
     }
 }

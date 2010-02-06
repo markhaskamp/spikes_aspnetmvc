@@ -15,6 +15,9 @@ namespace MyKindleBooks.Models.Controllers
         {
             Category_ViewModel vm = new Category_ViewModel();
             vm.AllCategories = categoryRepository.GetAllCategoriesWithSubcategories();
+
+            vm.AllSubcategories = categoryRepository.GetAllSubcategories();
+
             ViewData.Model = vm;
             return View();
         }

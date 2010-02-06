@@ -14,5 +14,11 @@ namespace MyKindleBooks.Models
             get { return _allCategories; }
             set { _allCategories = value; }
         }
+
+        private IList<Subcategory> _allSubCategories = new List<Subcategory>();
+        public IList<Subcategory> AllSubcategories { 
+            get { return _allSubCategories; }
+            set { _allSubCategories = value; }
+        }
     }
 }

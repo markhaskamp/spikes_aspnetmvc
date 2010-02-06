@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using MyKindleBooks.Domain;
@@ -8,13 +9,21 @@ namespace MyKindleBooks.DataAccess
 {
     public class CategoryRepository_DB : ICategoryRepository
     {
+
         public IList<Category> GetAllCategoriesWithSubcategories() {
-            IList<Category> categories = null;
 
             using (ISession session = OpenSession()) {
                 IQuery query = session.CreateQuery("FROM Category");
-                categories = query.List<Category>();
+                IList<Category> categories = query.List<Category>();
                 return categories;
+            }
+        }
+
+        public IList<Subcategory> GetAllSubcategories() {
+            using (ISession session = OpenSession()) {
+                IQuery query = session.CreateQuery("From Subcategory");
+                IList<Subcategory> subCategories = query.List<Subcategory>();
+                return subCategories;
             }
         }
 

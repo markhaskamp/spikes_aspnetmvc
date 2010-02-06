@@ -13,4 +13,9 @@
         <div class="category"><%= category.Name %></div>
     <% } %>
 
+<hr />    
+    <% foreach (var subcategory in Model.AllSubcategories) { %>
+        <div class="subcategory"><%= subcategory.Name%></div>
+   <% } %>
+
 </asp:Content>
