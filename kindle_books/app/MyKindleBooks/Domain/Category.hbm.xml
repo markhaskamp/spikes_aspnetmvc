@@ -5,7 +5,7 @@
   <class name="Category, MyKindleBooks"
          table="Production.ProductCategory">
     
-    <id name="rowguid">
+    <id column="rowguid" type="System.Guid">
       <generator class="native" />
     </id>
     <property name="Name" />

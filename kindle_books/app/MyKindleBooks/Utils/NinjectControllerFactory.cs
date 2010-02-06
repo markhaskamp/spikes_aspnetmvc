@@ -21,9 +21,6 @@ namespace MyKindleBooks.Utils
             {
                 Bind<IBookRepository>().To<BookRepository_Sample>();
                 Bind<ICategoryRepository>().To<CategoryRepository_DB>();
-
-                // Bind<ISession>().ToConstant(MvcApplication.SessionFactory.GetCurrentSession());
-                
             }
         }
     }
