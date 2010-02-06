@@ -11,6 +11,7 @@
     
     <% foreach (var category in Model.AllCategories) { %>
         <div class="category"><%= category.Name %></div>
+        
     <% } %>
 
 <hr />    

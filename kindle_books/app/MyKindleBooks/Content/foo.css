@@ -14,3 +14,16 @@
 {
     font-style: italic;
 }
+
+.category 
+{
+    margin-left: 1.0em;
+    font-weight: bold;
+}
+
+.subcategory 
+{
+    margin-left: 1.5em;
+    font-style: italic;
+}
+    
