@@ -9,11 +9,7 @@
       <generator class="native" />
     </id>
     <property name="Name" />
-
-    <bag name="subcategories">
-      <key column="ProductCategoryID"/>
-      <one-to-many class="Subcategory" />
-    </bag>
+    <property name="ProductCategoryID" />
 
   </class>
 </hibernate-mapping>

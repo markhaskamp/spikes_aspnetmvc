@@ -11,11 +11,11 @@
     
     <% foreach (var category in Model.AllCategories) { %>
         <div class="category"><%= category.Name %></div>
-        
-        <% foreach (var subcategory in category.subcategories) { %>
-            <div class="subcategory"><%= subcategory.Name %></div>
-        <% } %>
     <% } %>
 
+<hr />    
+    <% foreach (var subcategory in Model.AllSubcategories) { %>
+        <div class="subcategory"><%= subcategory.Name%></div>
+   <% } %>
 
 </asp:Content>
