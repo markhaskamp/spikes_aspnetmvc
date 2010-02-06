@@ -1,7 +1,5 @@
-using System.Collections.Generic;
 using System.Web.Mvc;
 using MyKindleBooks.DataAccess;
-using MyKindleBooks.Domain;
 using NHibernate;
 
 namespace MyKindleBooks.Models.Controllers
@@ -20,15 +18,9 @@ namespace MyKindleBooks.Models.Controllers
         {
             Category_ViewModel vm = new Category_ViewModel();
 
-            // vm.AllCategories = categoryRepository.GetAllCategoriesWithSubcategories();
-            IQuery query = _session.CreateQuery("FROM Category");
-            IList<Category> categories = query.List<Category>();
-            vm.AllCategories = categories;
+            vm.AllCategories = categoryRepository.GetAllCategoriesWithSubcategories(_session);
 
-//            vm.AllSubcategories = categoryRepository.GetAllSubcategories();
-            query = _session.CreateQuery("From Subcategory");
-            IList<Subcategory> subcategories = query.List<Subcategory>();
-            vm.AllSubcategories = subcategories;
+            vm.AllSubcategories = categoryRepository.GetAllSubcategories(_session);
 
             ViewData.Model = vm;
             return View();
