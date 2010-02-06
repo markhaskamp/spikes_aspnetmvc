@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="true">
-  <class name="MyKindleBooks.Domain.Category, MyKindleBooks" table="Production.ProductCategory" lazy="false">
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="MyKindleBooks"
+                   namespace="MyKindleBooks.Domain">
+  <class name="Category, MyKindleBooks"
+         table="Production.ProductCategory">
+    
     <id name="rowguid">
       <generator class="native" />
     </id>

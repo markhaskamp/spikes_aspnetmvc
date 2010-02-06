@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 using MyKindleBooks.DataAccess;
+using NHibernate;
 using Ninject.Core;
 
 namespace MyKindleBooks.Utils
@@ -20,6 +21,9 @@ namespace MyKindleBooks.Utils
             {
                 Bind<IBookRepository>().To<BookRepository_Sample>();
                 Bind<ICategoryRepository>().To<CategoryRepository_DB>();
+
+                // Bind<ISession>().ToConstant(MvcApplication.SessionFactory.GetCurrentSession());
+                
             }
         }
     }
