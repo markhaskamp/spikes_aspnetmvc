@@ -11,10 +11,9 @@
     <property name="Name" />
     <property name="ProductCategoryID" />
 
-    <bag name="subcategories" table="Production.ProductSubcategory">
-      <key column="ProductCategoryID" />
-      <one-to-many class="Subcategory, MyKindleBooks" />
+    <bag name="subcategories">
+      <key column="ProductCategoryID" property-ref="ProductCategoryID" />
+      <one-to-many class="Subcategory" />
     </bag>
-
   </class>
 </hibernate-mapping>
