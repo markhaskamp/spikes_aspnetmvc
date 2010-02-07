@@ -8,16 +8,8 @@ namespace MyKindleBooks.DataAccess
     {
 
         public IList<Category> GetAllCategoriesWithSubcategories(ISession session) {
-            IQuery query = session.CreateQuery("FROM Category");
-            IList<Category> categories = query.List<Category>();
-            return categories;
+            return session.CreateQuery("FROM Category").List<Category>();
         }
-
-//        public IList<Subcategory> GetAllSubcategories(ISession session) {
-//            IQuery query = session.CreateQuery("From Subcategory");
-//            IList<Subcategory> subCategories = query.List<Subcategory>();
-//            return subCategories;
-//        }
 
     }
 }
