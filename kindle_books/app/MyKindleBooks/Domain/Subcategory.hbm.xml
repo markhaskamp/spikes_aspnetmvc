@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="true">
-  <class name="MyKindleBooks.Domain.Subcategory, MyKindleBooks" table="Production.ProductSubcategory" >
-    <id column="rowguid" type="System.Guid">
-      <generator class="native" />
+  <class name="MyKindleBooks.Domain.Subcategory, MyKindleBooks" 
+		 table="dbo.ProductSubcategory" >
+    <id column="ProductSubcategoryID" name="ProductSubcategoryID">
+      <generator class="identity" />
     </id>
     <property name="Name" />
-    <property name="ProductSubcategoryID" />
-    <property name="ProductCategoryID" />
-    <many-to-one class="MyKindleBooks.Domain.Category" name="category">
+
+    <many-to-one class="MyKindleBooks.Domain.Category" name="Category">
       <column name="ProductCategoryID"/>
     </many-to-one>
 

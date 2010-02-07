@@ -3,16 +3,16 @@
                    assembly="MyKindleBooks"
                    namespace="MyKindleBooks.Domain">
   <class name="Category, MyKindleBooks"
-         table="Production.ProductCategory">
+         table="dbo.ProductCategory">
     
-    <id column="rowguid" type="System.Guid">
-      <generator class="native" />
+    <id column="ProductCategoryID" name="ProductCategoryID">
+      <generator class="identity" />
     </id>
     <property name="Name" />
-    <property name="ProductCategoryID" />
 
-    <bag name="subcategories">
-      <key column="ProductCategoryID" property-ref="ProductCategoryID" />
+
+    <bag name="Subcategories">
+      <key column="ProductCategoryID"  />
       <one-to-many class="Subcategory" />
     </bag>
   </class>
