@@ -8,9 +8,6 @@
     <property name="Name" />
     <property name="ProductSubcategoryID" />
     <property name="ProductCategoryID" />
-    <many-to-one class="MyKindleBooks.Domain.Category" name="category">
-      <column name="ProductCategoryID"/>
-    </many-to-one>
 
   </class>
 </hibernate-mapping>
