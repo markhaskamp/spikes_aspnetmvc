@@ -1,0 +1,42 @@
+﻿
+.bookListing 
+{
+    color: #000099;
+    margin: 15px, 0px, 15px, 15px;
+}
+
+.bookTitle
+{
+    font-weight: bold;
+}
+
+.bookAuthor 
+{
+    font-style: italic;
+}
+
+.category 
+{
+    margin-top: 1.0em;
+    margin-left: 1.0em;
+    color: #990000;
+    font-weight: bold;
+}
+
+.subcategoryContainer {
+    width: 450px;
+    border: solid 1px black;
+    background-color: #d5d5d5;
+    margin-left: 1.5em;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    color: #000099;
+}
+
+.subcategory 
+{
+    margin-left: 0.25em;
+    font-style: italic;
+}
+    

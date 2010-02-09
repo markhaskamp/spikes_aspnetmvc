@@ -113,7 +113,7 @@
     <Compile Include="Utils\NinjectControllerFactory.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\foo.css" />
+    <Content Include="Content\main.css" />
     <Content Include="Default.aspx" />
     <EmbeddedResource Include="Domain\Category.hbm.xml" />
     <EmbeddedResource Include="Domain\Subcategory.hbm.xml" />
@@ -139,6 +139,7 @@
     <None Include="nhibernate-configuration.xsd" />
     <None Include="nhibernate-mapping.xsd" />
     <Content Include="nhibernate.config" />
+    <Content Include="Scripts\js\categoryIndex.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
