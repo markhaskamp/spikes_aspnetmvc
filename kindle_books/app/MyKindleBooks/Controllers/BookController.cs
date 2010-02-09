@@ -1,8 +1,9 @@
 using System.Linq;
 using System.Web.Mvc;
 using MyKindleBooks.DataAccess;
+using MyKindleBooks.Models;
 
-namespace MyKindleBooks.Models.Controllers
+namespace MyKindleBooks.Controllers
 {
     public class BookController : Controller
     {

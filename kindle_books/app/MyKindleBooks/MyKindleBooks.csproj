@@ -96,13 +96,13 @@
     <Compile Include="Domain\Category.cs" />
     <Compile Include="Domain\Subcategory.cs" />
     <Compile Include="Models\Category_ViewModel.cs" />
-    <Compile Include="Models\Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="DataAccess\BookRepository_Sample.cs" />
     <Compile Include="Domain\Books.cs" />
     <Compile Include="Models\Book_ViewModel.cs" />
-    <Compile Include="Models\Controllers\AccountController.cs" />
-    <Compile Include="Models\Controllers\BookController.cs" />
-    <Compile Include="Models\Controllers\HomeController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BookController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

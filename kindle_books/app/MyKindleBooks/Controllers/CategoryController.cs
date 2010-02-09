@@ -1,8 +1,9 @@
 using System.Web.Mvc;
 using MyKindleBooks.DataAccess;
+using MyKindleBooks.Models;
 using NHibernate;
 
-namespace MyKindleBooks.Models.Controllers
+namespace MyKindleBooks.Controllers
 {
     public class CategoryController : Controller
     {
