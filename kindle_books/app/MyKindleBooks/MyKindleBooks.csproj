@@ -140,6 +140,7 @@
     <None Include="nhibernate-mapping.xsd" />
     <Content Include="nhibernate.config" />
     <Content Include="Scripts\js\categoryIndex.js" />
+    <Content Include="Scripts\js\EventAggregator.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

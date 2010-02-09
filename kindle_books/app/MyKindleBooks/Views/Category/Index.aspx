@@ -10,6 +10,7 @@
 
     <script type="text/javascript" src="/Scripts/jquery-1.3.2.min.js"></script>
     <script type="text/javascript" src="/Scripts/js/categoryIndex.js"></script>
+    <script type="text/javascript" src="/Scripts/js/EventAggregator.js"></script>
 
     <h2>Category</h2>
     
