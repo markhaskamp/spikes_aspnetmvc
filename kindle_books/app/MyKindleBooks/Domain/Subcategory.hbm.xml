@@ -2,16 +2,11 @@
 
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="true">
   <class name="MyKindleBooks.Domain.Subcategory, MyKindleBooks" 
-		 table="dbo.ProductSubcategory" >
+		 table="Production.ProductSubcategory" >
     <id column="ProductSubcategoryID" name="ProductSubcategoryID">
       <generator class="identity" />
     </id>
     <property name="Name" />
-
-    <many-to-one class="MyKindleBooks.Domain.Category" name="Category">
-      <column name="ProductCategoryID"/>
-    </many-to-one>
-
   </class>
 </hibernate-mapping>
 

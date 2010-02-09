@@ -3,7 +3,7 @@
                    assembly="MyKindleBooks"
                    namespace="MyKindleBooks.Domain">
   <class name="Category, MyKindleBooks"
-         table="dbo.ProductCategory">
+         table="Production.ProductCategory">
     
     <id column="ProductCategoryID" name="ProductCategoryID">
       <generator class="identity" />
