@@ -12,6 +12,5 @@ namespace MyKindleBooks.DataAccess
             IList<Category> categories = query.List<Category>();
             return categories;
         }
-
     }
 }

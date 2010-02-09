@@ -12,7 +12,7 @@
     
     <% foreach (var category in Model.AllCategories) { %>
         <div class="category"><%= category.Name %></div>
-        
+
         <% foreach (var sc in category.Subcategories) { %>
           <div class="subcategory"><%= sc.Name%></div>
         <% } %>     

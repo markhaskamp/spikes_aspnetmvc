@@ -9,9 +9,7 @@
       <generator class="identity" />
     </id>
     <property name="Name" />
-
-
-    <bag name="Subcategories">
+    <bag name="Subcategories" lazy="false">
       <key column="ProductCategoryID"  />
       <one-to-many class="Subcategory" />
     </bag>
