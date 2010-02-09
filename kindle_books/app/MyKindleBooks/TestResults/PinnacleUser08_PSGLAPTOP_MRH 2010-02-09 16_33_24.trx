@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4f95d667-6693-404f-bc5f-092c6b1bd825" name="PinnacleUser08@PSGLAPTOP_MRH 2010-02-09 16:33:24" runUser="PSGLaptop_mrh\PinnacleUser08" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="a5306bd6-1cf7-4e5f-a982-15ac78252bd8">
+    <Deployment runDeploymentRoot="C:\a_dev\spikes_apsnetmvc\kindle_books\app\MyKindleBooks\TestResults\PinnacleUser08_PSGLAPTOP_MRH 2010-02-09 16_33_24">
+      <DeploymentItem filename="C:\Program Files\Gallio\bin\MbUnit35.dll" />
+      <DeploymentItem filename="C:\Program Files\Gallio\bin\MbUnit.dll" />
+      <DeploymentItem filename="C:\Program Files\Gallio\bin\Gallio.dll" />
+      <DeploymentItem filename="C:\a_dev\spikes_apsnetmvc\kindle_books\app\MyKindleBooks\bin\MyKindleBooks.dll" />
+      <DeploymentItem filename="C:\Program Files\Gallio\bin\Gallio35.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-02-09T16:33:24.2173968-05:00" queuing="2010-02-09T16:33:28.8226602-05:00" start="2010-02-09T16:33:29.3736917-05:00" finish="2010-02-09T16:33:32.0498448-05:00" />
+  <TestDefinitions>
+    <GallioTestElement name="Index" storage="C:\a_dev\spikes_apsnetmvc\kindle_books\app\MyKindleBooks.Tests\bin\Debug\MyKindleBooks.Tests.dll" id="66626537-3864-6132-6335-353033346620" d3p1:Gallio.TestId="7ebfd82ac55034f" d3p1:Gallio.AssemblyName="MyKindleBooks.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" d3p1:Gallio.NamespaceName="MyKindleBooks.Tests.Controllers" d3p1:Gallio.TypeName="MyKindleBooks.Tests.Controllers.HomeControllerTest" d3p1:Gallio.MemberName="Index" d3p1:Gallio.ParameterName="" d3p1:Gallio.Path="C:\a_dev\spikes_apsnetmvc\kindle_books\app\MyKindleBooks.Tests\Controllers\HomeControllerTest.cs" d3p1:Gallio.Line="21" d3p1:Gallio.Column="0" xmlns:d3p1="http://www.gallio.org/">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ffef9c7c-909b-4454-81c3-19ce5940444c" />
+      <Properties>
+        <Property>
+          <Key>TestKind</Key>
+          <Value>Test</Value>
+        </Property>
+      </Properties>
+    </GallioTestElement>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="66626537-3864-6132-6335-353033346620" executionId="ffef9c7c-909b-4454-81c3-19ce5940444c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <GallioTestResult executionId="ffef9c7c-909b-4454-81c3-19ce5940444c" testId="66626537-3864-6132-6335-353033346620" testName="Index" computerName="PSGLAPTOP_MRH" duration="00:00:00.0160000" startTime="2010-02-09T16:33:31.8078310-05:00" endTime="2010-02-09T16:33:31.8288322-05:00" testType="f3589083-259c-4054-87f7-75cdad4b08e5" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </GallioTestResult>
+  </Results>
+</TestRun>
