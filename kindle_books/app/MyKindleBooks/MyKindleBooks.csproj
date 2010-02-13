@@ -141,6 +141,7 @@
     <Content Include="nhibernate.config" />
     <Content Include="Scripts\js\categoryIndex.js" />
     <Content Include="Scripts\js\EventAggregator.js" />
+    <Content Include="Scripts\js\jquery-ui-1.7.2.custom.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -15,22 +15,27 @@
     font-style: italic;
 }
 
+#accordion {
+    width: 175px;
+    border: solid 1px black;
+    }
+    
 .category 
 {
     margin-top: 1.0em;
     margin-left: 1.0em;
+    margin-bottom: 0.33em;
     color: #990000;
     font-weight: bold;
 }
 
 .subcategoryContainer {
-    width: 450px;
-    border: solid 1px black;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
     background-color: #d5d5d5;
-    margin-left: 1.5em;
     padding-top: 4px;
     padding-bottom: 4px;
-    padding-left: 4px;
+    padding-left: 2.0em;
     color: #000099;
 }
 

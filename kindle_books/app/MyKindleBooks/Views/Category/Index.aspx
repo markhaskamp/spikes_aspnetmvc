@@ -9,11 +9,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
     <script type="text/javascript" src="/Scripts/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="/Scripts/js/jquery-ui-1.7.2.custom.min.js"></script>
     <script type="text/javascript" src="/Scripts/js/categoryIndex.js"></script>
     <script type="text/javascript" src="/Scripts/js/EventAggregator.js"></script>
 
     <h2>Category</h2>
     
+    <div id="accordion">
     <% foreach (var category in Model.AllCategories) { %>
         <div class="category"><%= category.Name %></div>
 
@@ -24,5 +26,6 @@
         </div>
         
     <% } %>
+    </div>
 
 </asp:Content>
