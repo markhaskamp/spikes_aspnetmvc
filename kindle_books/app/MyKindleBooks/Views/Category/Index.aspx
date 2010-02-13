@@ -27,5 +27,10 @@
         
     <% } %>
     </div>
+    
+    <form action="#">
+        <input type="text" id="txtActivateNdx" />
+        <input type="button" id="btnActivateNdx" value="Activate" />
+    </form>
 
 </asp:Content>
