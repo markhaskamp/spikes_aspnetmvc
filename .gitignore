@@ -1,5 +1,17 @@
-*_ReSharper*
-*bin/
-*obj/
+*resharper.user
+[Dd]ebug/
+[Rr]elease/
+build/
+[Bb]in/
+[Oo]bj/
 *.suo
-*resharper*
+*.sln.cache
+_ReSharper.*/
+*.user
+
+// *_ReSharper*
+// *bin/
+// *obj/
+// *.suo
+// *resharper*
+
