@@ -9,9 +9,3 @@ build/
 _ReSharper.*/
 *.user
 
-// *_ReSharper*
-// *bin/
-// *obj/
-// *.suo
-// *resharper*
-
