@@ -6,7 +6,6 @@ namespace MyKindleBooks.DataAccess
 {
     public interface ICategoryRepository
     {
-        IList<Category> GetAllCategoriesWithSubcategories(ISession session);
-//        IList<Subcategory> GetAllSubcategories(ISession session);
+        IList<Category> GetAllCategoriesWithSubcategories();
     }
 }

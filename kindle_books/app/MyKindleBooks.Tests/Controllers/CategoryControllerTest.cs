@@ -1,6 +1,8 @@
-﻿using MbUnit.Framework;
+﻿using System.Collections.Generic;
+using MbUnit.Framework;
 using MyKindleBooks.Controllers;
 using MyKindleBooks.DataAccess;
+using MyKindleBooks.Domain;
 using NHibernate;
 using Rhino.Mocks;
 
@@ -14,15 +16,18 @@ namespace MyKindleBooks.Tests.Controllers
         private ICategoryRepository mockCategoryRepository;
 
         [Test]
-        public void TestMethod1()
+        public void Test_Calls_Index_Calls_CategoryRepository_Calls_GetAllCategoriesWithSubcategories()
         {
             mockery = new MockRepository();
-            mockCategoryRepository = mockery.DynamicMock<ICategoryRepository>();
             mockSession = mockery.DynamicMock<ISession>();
+            mockCategoryRepository = mockery.DynamicMock<ICategoryRepository>();
+
             var catController = new CategoryController(mockCategoryRepository);
 
             using(mockery.Record()) {
-                mockCategoryRepository.GetAllCategoriesWithSubcategories(mockSession);
+                Expect.Call(
+                    mockCategoryRepository.GetAllCategoriesWithSubcategories())
+                    .Return(new List<Category>());
             }
 
             using (mockery.Playback()) {
@@ -30,7 +35,6 @@ namespace MyKindleBooks.Tests.Controllers
             }
 
             mockery.VerifyAll();
-                
         }
     }
 }
