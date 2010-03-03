@@ -8,4 +8,4 @@ build/
 *.sln.cache
 _ReSharper.*/
 *.user
-
+TestResults/
