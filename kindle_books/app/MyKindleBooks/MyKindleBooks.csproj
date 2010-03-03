@@ -43,6 +43,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\toolsBundle\orm\nhibernate\Required_For_LazyLoading\Castle\Castle.DynamicProxy2.dll</HintPath>
     </Reference>
+    <Reference Include="CommonServiceLocator.NinjectAdapter, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\toolsBundle\ioc\ninject\extensions\CommonServiceLocator.NinjectAdapter.dll</HintPath>
+    </Reference>
     <Reference Include="HibernatingRhinos.Profiler.Appender, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0774796e73ebf640, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\toolsBundle\orm\nhibernate\HibernatingRhinos.Profiler.Appender.dll</HintPath>
@@ -63,9 +67,13 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\toolsBundle\orm\nhibernate\Required_For_LazyLoading\Castle\NHibernate.ByteCode.Castle.dll</HintPath>
     </Reference>
-    <Reference Include="Ninject.Core, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+    <Reference Include="Ninject, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\toolsBundle\ioc\ninject\Ninject.Core.dll</HintPath>
+      <HintPath>..\..\toolsBundle\ioc\ninject\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=79764a4ef1548af1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\toolsBundle\ioc\ninject\Ninject.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

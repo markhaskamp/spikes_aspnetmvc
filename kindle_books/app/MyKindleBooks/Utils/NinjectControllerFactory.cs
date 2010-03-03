@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Web.Mvc;
 using MyKindleBooks.DataAccess;
-using NHibernate;
-using Ninject.Core;
+using Ninject;
+using Ninject.Modules;
 
 namespace MyKindleBooks.Utils
 {
@@ -15,7 +15,7 @@ namespace MyKindleBooks.Utils
             return controllerType == null ? null : (IController)kernel.Get(controllerType);
         }
 
-        private class BookRepositoryDependencies : StandardModule
+        private class BookRepositoryDependencies : NinjectModule
         {
             public override void Load()
             {
