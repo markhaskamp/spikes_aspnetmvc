@@ -1,6 +1,8 @@
 ﻿%h3 = "Testing"
 - foreach (var i in new int[] { 0, 5, 10, 15, 20 })
-  %p
-    Paragraph with a number
-    = i
+  .the_div
+    %span.label
+      Paragraph with a number
+    %span.paragraph_value
+      = i
     
